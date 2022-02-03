@@ -99,7 +99,7 @@ p{
         border-radius: 20px;
         background: rgb(94, 94, 94);
         border: none;
-        transition: 1s ease-in;
+        transition: .5s ease-in;
         
         
 
@@ -108,4 +108,72 @@ p{
         background: rgb(0, 174, 255);
         color: #fff;
     }
-  
+    /* Detail section */
+  .col-2 .product .main-img img{
+      max-width: 400px;
+      max-height: 400px;
+  }
+  .col-2 .product .main-img img:hover{
+    transform: scale(1.1);
+  }
+  .col-2 .product .thumb-img img{
+      width: 100px;
+      height: 100px;
+     padding: 10px;
+      
+     
+      
+
+  }
+  .col-2 .product .thumb-img .box{
+      margin-left: 10px;
+      border:1px solid #000;
+      cursor: pointer;
+      
+      width: 100px;
+      height :100px;
+      display: inline-block;
+  }
+  .quantity{
+      display: flex;
+      justify-content: center;
+  }
+  .quantity button{
+     font-weight: bolder;
+
+      width: 45px;
+      height: 45px;
+      border: 1px solid #000 ;
+      color: #000;
+      background: #fff;
+  }
+  .quantity input{
+      width: 70px;
+      border-top:1px solid #000;
+      border-bottom:1px solid #000 ;
+      text-align: center;
+  }
+  .btn-1{
+      width: 200px;
+      height: 60px;
+      border-radius: 30px;
+      border: 2px solid #333;
+      outline: none;
+      background: none;
+  }
+  .btn-2{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background:#333 ;
+    border: none;
+    color: white;
+    transition: .5s ease;
+
+  }
+  .btn-2:hover{
+    border: 2px solid #333;
+   
+    
+
+  }

@@ -244,7 +244,7 @@
         <h3 class="py-3">Mattress In Bag | New Launch</h3>
         <div class="row">
           <div
-            class="col-lg-6 col-md-12 col-1"
+            class="col-lg-6 col-md-12 col-sm-12 col-1"
             style="display: flex; justify-content: center"
           >
             <div class="content-box">
@@ -269,13 +269,13 @@
               </div>
             </div>
             <div class="overlay">
-              <div class="button ">
+              <div class="button">
                 <button class="btn-info btn-lg">Quick View</button>
               </div>
             </div>
           </div>
           <div
-            class="col-lg-6 col-md-12 col-1 "
+            class="col-lg-6 col-md-12 col-sm-12 col-1"
             style="display: flex; justify-content: center"
           >
             <div class="content-box">
@@ -298,26 +298,101 @@
                 </div>
               </div>
             </div>
-              <div class="overlay">
-                <div class="button ">
-                  <button class="btn-info btn-lg">Quick View</button>
-                </div>
+            <div class="overlay">
+              <div class="button">
+                <button class="btn-info btn-lg">Quick View</button>
               </div>
-             
-
+            </div>
           </div>
-
         </div>
       </div>
     </section>
     <!-- Detail section -->
     <section id="details" class="r-p">
-        <div class="container">
-            <h3 class="py-3">Kurlon High-Resilience Dual-Comfort 8" Memory Foam</h3>
+      <div class="container">
+        <h3 class="py-3">Kurlon High-Resilience Dual-Comfort 8" Memory Foam</h3>
+        <div class="row">
+          <div class="col-md-12 col-lg-6 col-sm-12 col-2 p-2"  style="display: flex; justify-content: center">
+            <div class="product">
+              <div class="main-img mx-4">
+                <img src="/img/product1.jpg" class="pro-img" alt="" />
+              </div>
+              <div class="thumb-img my-2">
+                <div class="box active" onclick="changeImage(this)">
+                  <img src="/img/product1.jpg" alt="" />
+                </div>
+                <div class="box" onclick="changeImage(this)">
+                  <img src="/img/product2.jpg" alt="" />
+                </div>
+                <div class="box" onclick="changeImage(this)">
+                  <img src="/img/product3.jpg" alt="" />
+                </div>
+                <div class="box" onclick="changeImage(this)">
+                  <img src="/img/product4.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6 my-4">
+            <h5>Product description</h5>
+            <form>
+              <div class="mb-3 my-4">
+               <h6 class="my-3">Size In Inches</h6>
+                <select class="form-select " aria-label="Default select example">
+                  <option selected>Single 72*36</option>
+                  <option value="1">Single 72*36</option>
+                  <option value="2">Queen 78*60</option>
+
+                </select>
+            </form>
            
+            <form>
+              <div class="mb-3 my-4">
+               <h6 class="my-3">Thickness</h6>
+                <select class="form-select " aria-label="Default select example">
+                  <option selected>8</option>
+                  <option value="1">8</option>
+                  
 
+                </select>
+            </form>
+            
+            <form>
+              <div class="mb-3 my-4">
+               <h6 class="my-3">Color</h6>
+                <select class="form-select " aria-label="Default select example">
+                  <option selected>Bamboo Twisted</option>
+                  <option value="1">Bamboo Twisted</option>
+                  
+
+                </select>
+            </form>
+            <div class="content-box my-4" style="display: flex; justify-content: space-between;">
+              <div class="quantity">
+                <button class="btn minus-btn disabled">-</button>
+                <input type="text" id="quantity" value="1">
+                <button class="btn minus-btn ">+</button>
+
+              </div>
+              <div class="rate ">
+                <h1  style="font-size:25px ;">
+                  From Rs. 10,256.00
+                  <span style="font-size: 15px; color: rgb(141, 141, 141)">
+                    <del>Rs. 13,000.00</del></span
+                  >
+                </h1>
+
+
+              </div>
+            </div>
+            <div class="button my-5" style="display: flex; justify-content: space-between;">
+              <button class="btn btn-1 btn-lg btn-info">Add to Cart</button>
+              <button class="btn btn-lg btn-2 btn-info">Buy It Now</button>
+            </div>
+
+          </div>
         </div>
-
+      </div>
     </section>
 
     <!-- Linking js -->
