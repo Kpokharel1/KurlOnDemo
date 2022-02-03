@@ -69,3 +69,43 @@ p{
 .card-body a:hover{
     color: rgb(81, 81, 160);
 }
+.col-1:hover .card img{
+    width: 400px;
+
+}
+.col-1 .overlay {
+    position: absolute;
+    
+   
+   
+    opacity:0 ;
+    transition: 1s ease;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  }
+  .col-1:hover .overlay {
+    opacity: 1;}
+
+    .col-1 .overlay .button{
+       
+        width: 400px;
+        height: 200px;
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-1 .overlay .button button{
+        border-radius: 20px;
+        background: rgb(94, 94, 94);
+        border: none;
+        transition: 1s ease-in;
+        
+        
+
+    }
+    .col-1 .overlay .button button:hover{
+        background: rgb(0, 174, 255);
+        color: #fff;
+    }
+  
