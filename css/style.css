@@ -17,7 +17,7 @@ p{
     font-family: 'Nunito',sans-serif;
     font-size: 20px;
     line-height: 30px;
-    color: #b8bbbe;
+    color: #000;
 }
 
 .r-p{
@@ -177,3 +177,29 @@ p{
     
 
   }
+  /* catagories section */
+  #catagories .col-3  .card{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    
+      
+
+  }
+  #catagories .col-3  .card a img{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+  }
+  #catagories .col-3  .card a img:hover{
+    transform: scale(1.1);
+}
+#catagories .col-3  .card a .s-img{
+    width: 300px;
+}
+  
+  
+
