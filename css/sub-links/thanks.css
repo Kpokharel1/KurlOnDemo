@@ -60,7 +60,8 @@ p{
     color: rgb(49, 78, 243);
 
 }
-.products .col-3  .card{
+.col-5{
+    
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -68,27 +69,45 @@ p{
       
 
   }
-  .products .col-3  .card a img{
+   .col-5  img{
     max-width: 100%;
     transition: all 0.3s;
     display: block;
     width: 100%;
-    height: 300px;
+    height: auto;
     transform: scale(1);
   }
- .products .col-3  .card a img:hover{
+ .col-5 img:hover{
     transform: scale(1.1);
 }
-.a-card{
-    color: rgb(156, 156, 156);
-    text-decoration: none;
-    transition: .5s ease;
-}
-.a-card:hover{
-    color: rgb(58, 58, 255);
-}
 
+.quantity{
+    display: flex;
+    justify-content: center;
+}
+.quantity button{
+   font-weight: bolder;
 
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000 ;
+    color: #000;
+    background: #fff;
+}
+.quantity input{
+    width: 70px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000 ;
+    text-align: center;
+}
+.btn-1{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #333;
+    outline: none;
+    background: none;
+}
 /* Footer section */
 #footer input{
     border-radius: 30px;
