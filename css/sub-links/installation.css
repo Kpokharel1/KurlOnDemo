@@ -72,13 +72,11 @@ p{
 }
 
 /* Form Section */
-#form .form{
-    padding: 20px;
-    margin: 15px 250px;
-    background-color: white;
-
+.form {
+    margin:10px 20px;
+padding: 20px;
+background: white
 }
-
 /* Footer section */
 #footer input{
     border-radius: 30px;
