@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Linking custom css -->
-    <link rel="stylesheet" href="/css/sub-links/accessories.css" />
+    <link rel="stylesheet" href="/css/sub-links/detail-product1.css" />
     <title>Document</title>
   </head>
   <body>
@@ -231,72 +231,101 @@
     <!-- home section -->
     <section id="home" class="my-3">
       <div class="container">
-        <p><a class="body-nav" href="/index.html">Kurlon</a>/Accessories</p>
+        <p>
+          <a class="body-nav" href="/index.html">Kurlon</a>/Kurlon
+          High-Resilience Dual-Comfort 8" Memory Foam Mattress
+        </p>
 
         <div class="body-content py-3">
-          <h3>Accessories</h3>
+          <h3>Kurlon High-Resilience Dual-Comfort 8" Memory Foam Mattress</h3>
         </div>
-        <div class="products">
-          <div class="row">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-5">
+            <img
+              src="/img/product1.jpg"
+              width="100%"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 my-4 p-5">
+            <h5>Product description</h5>
+            <h6 class="my-3">Get 2 Zipper cover's worth Rs. 3500</h6>
+            <form>
+              <div class="mb-3 my-4">
+                <h6 class="my-3">Size In Inches</h6>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Single 72*36</option>
+
+                  <option value="2">Queen 78*60</option>
+                </select>
+              </div>
+              <div class="mb-3 my-4">
+                <h6 class="my-3">Thickness</h6>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>8</option>
+                </select>
+              </div>
+              <div class="mb-3 my-4">
+                <h6 class="my-3">Color</h6>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Bamboo Twisted</option>
+                </select>
+              </div>
+            </form>
             <div
-              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 my-2 p-2 col-3"
-              style="display: flex; justify-content: center"
+              class="content-box my-4"
+              style="display: flex; justify-content: space-between"
             >
-              <div class="content-box">
-                <div class="card" style="width: 22rem">
-                  <a href="#">
-                    <img
-                      class="card-img-top"
-                      src="/img/accessories-product1.jpg"
-                      alt="Card image cap"
-                    />
-                  </a>
-                  <div class="card-body my-2 p-3">
-                    <h4><a href="#" class="a-card">Restangle Pillow</a></h4>
-                    <p style="font-weight: bolder">Rs. 2,710.00</p>
-                  </div>
+              <div class="quantity">
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button
+                      type="button"
+                      class="quantity-left-minus btn btn-danger btn-number"
+                      data-type="minus"
+                      data-field=""
+                    >
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                  </span>
+                  <input
+                    style="width: 50px"
+                    type="text"
+                    id="quantity"
+                    name="quantity"
+                    class="form-control input-number"
+                    value="1"
+                    min="1"
+                    max="100"
+                  />
+                  <span class="input-group-btn">
+                    <button
+                      type="button"
+                      class="quantity-right-plus btn btn-success btn-number"
+                      data-type="plus"
+                      data-field=""
+                    >
+                      <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                  </span>
                 </div>
+              </div>
+              <div class="rate">
+                <h1 style="font-size: 25px">
+                  From Rs. 10,256.00
+                  <span style="font-size: 15px; color: rgb(141, 141, 141)">
+                    <del>Rs. 13,000.00</del></span
+                  >
+                </h1>
               </div>
             </div>
             <div
-              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 my-2 p-2 col-3"
-              style="display: flex; justify-content: center"
+              class="button my-5"
+              style="display: flex; justify-content: space-between"
             >
-              <div class="content-box">
-                <div class="card" style="width: 22rem">
-                  <a href="#">
-                    <img
-                      class="card-img-top"
-                      src="/img/accessories-product2.jpg"
-                      alt="Card image cap"
-                    />
-                  </a>
-                  <div class="card-body my-2 p-3">
-                    <h4><a href="#" class="a-card">Kooler</a></h4>
-                    <p style="font-weight: bolder">From Rs. 6,999.00</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 my-2 p-2 col-3"
-              style="display: flex; justify-content: center"
-            >
-              <div class="content-box">
-                <div class="card" style="width: 22rem">
-                  <a href="#">
-                    <img
-                      class="card-img-top"
-                      src="/img/accessories-product3.jpg"
-                      alt="Card image cap"
-                    />
-                  </a>
-                  <div class="card-body my-2 p-3">
-                    <h4><a href="#" class="a-card">Comfy</a></h4>
-                    <p style="font-weight: bolder">Rs. 1,499.00</p>
-                  </div>
-                </div>
-              </div>
+              <button class="btn btn-1 btn-lg btn-info">Add to Cart</button>
+              <button class="btn btn-lg btn-2 btn-info">Buy It Now</button>
             </div>
           </div>
         </div>

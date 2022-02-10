@@ -48,9 +48,9 @@
           contact@elscript.com
         </h6>
       </div>
-      <nav class="navbar navbar-expand-lg bg-light r-nav">
+      <nav  id="navbar_top" class="navbar navbar-expand-lg bg-light r-nav">
         <div class="container">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="/index.html"
             ><img src="/img/logo.jpg" style="width: 200px" alt=""
           /></a>
           <button
@@ -264,11 +264,40 @@
               class="content-box my-4"
               style="display: flex; justify-content: space-between"
             >
-              <div class="quantity">
-                <button class="btn minus-btn disabled">-</button>
-                <input type="text" id="quantity" value="1" />
-                <button class="btn minus-btn">+</button>
+            <div class="quantity">
+              <div class="input-group">
+                <span class="input-group-btn">
+                  <button
+                    type="button"
+                    class="quantity-left-minus btn btn-danger btn-number"
+                    data-type="minus"
+                    data-field=""
+                  >
+                    <span class="glyphicon glyphicon-minus">-</span>
+                  </button>
+                </span>
+                <input
+                  style="width: 50px"
+                  type="text"
+                  id="quantity"
+                  name="quantity"
+                  class="form-control input-number"
+                  value="1"
+                  min="1"
+                  max="100"
+                />
+                <span class="input-group-btn">
+                  <button
+                    type="button"
+                    class="quantity-right-plus btn btn-success btn-number"
+                    data-type="plus"
+                    data-field=""
+                  >
+                    <span class="glyphicon glyphicon-plus">+</span>
+                  </button>
+                </span>
               </div>
+            </div>
               <div class="rate">
                 <h1 style="font-size: 25px">Rs 500.00</h1>
               </div>
